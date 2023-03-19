@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArqMvc.Application\CleanArqMvc.Application.csproj" />
+    <ProjectReference Include="..\CleanArqMvc.Domain\CleanArqMvc.Domain.csproj" />
+    <ProjectReference Include="..\CleanArqMvc.Infra.Data\CleanArqMvc.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
