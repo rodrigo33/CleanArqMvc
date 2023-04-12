@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArqMvc.Application", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArqMvc.Infra.Data", "CleanArqMvc.Infra.Data\CleanArqMvc.Infra.Data.csproj", "{0B15341C-5063-4AA8-A4B6-177708A267C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArqMvc.Infra.IoC", "CleanArqMvc.Infra.IoC\CleanArqMvc.Infra.IoC.csproj", "{DC3E16C1-3D8B-4240-A3EC-3618F5960A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArqMvc.Infra.IoC", "CleanArqMvc.Infra.IoC\CleanArqMvc.Infra.IoC.csproj", "{DC3E16C1-3D8B-4240-A3EC-3618F5960A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArqMvc.WebUI", "CleanArqMvc.WebUI\CleanArqMvc.WebUI.csproj", "{CD7D9B62-4EF0-4BBB-BC8F-5CA8D6E507F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArqMvc.WebUI", "CleanArqMvc.WebUI\CleanArqMvc.WebUI.csproj", "{CD7D9B62-4EF0-4BBB-BC8F-5CA8D6E507F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArqMvc.Domain.Tests", "CleanArqMvc.Domain.Tests\CleanArqMvc.Domain.Tests.csproj", "{93AA0CBA-16E4-4079-ACAF-4945C7682B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CD7D9B62-4EF0-4BBB-BC8F-5CA8D6E507F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7D9B62-4EF0-4BBB-BC8F-5CA8D6E507F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7D9B62-4EF0-4BBB-BC8F-5CA8D6E507F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AA0CBA-16E4-4079-ACAF-4945C7682B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AA0CBA-16E4-4079-ACAF-4945C7682B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AA0CBA-16E4-4079-ACAF-4945C7682B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AA0CBA-16E4-4079-ACAF-4945C7682B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
