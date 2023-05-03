@@ -10,7 +10,7 @@ namespace CleanArqMvc.Infra.Data.Context
 {
     public class ApplicationDbContext : DbContext
     {
-        protected ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         { }
             public DbSet<Category> Categories { get; set; }
