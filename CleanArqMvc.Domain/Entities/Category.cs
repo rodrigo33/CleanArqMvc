@@ -6,6 +6,7 @@ namespace CleanArqMvc.Domain.Entities
     public sealed class Category : Entity
     {
         public string Name { get; private set; }
+        public ICollection<Product> Products { get; set; }
 
         public Category(string name)
         {
@@ -24,7 +25,6 @@ namespace CleanArqMvc.Domain.Entities
             ValidateDomain(name);
         }
 
-        public ICollection<Product> Products { get; set; }
 
         private void ValidateDomain(string name)
         {
