@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using CleanArqMvc.Domain.Entities;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -35,6 +36,8 @@ namespace CleanArqMvc.Application.DTOs
         [MaxLength(250)]
         [DisplayName("Product Image")]
         public string Image { get; set; }
+
+        public Category Category { get; set; }
 
         [DisplayName("Categories")]
         public int CategoryId { get; set; }
