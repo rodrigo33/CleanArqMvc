@@ -13,6 +13,8 @@ namespace CleanArqMvc.Application.Interfaces
 
         Task<ProductDto> GetById(int? id);
 
+        //Task<ProductDto> GetProductCategory(int? id);
+
         Task Add(ProductDto productDto);
 
         Task Update(ProductDto productDto);
